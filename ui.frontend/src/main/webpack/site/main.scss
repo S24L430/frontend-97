@@ -40,6 +40,7 @@
   height: auto;
   // width: auto; // line causing Cumulative Layout Shift issue
   width: 100%; // line containing fix for Cumulative Layout Shift issue
+  object-fit: cover;
 }
 
 @media(max-width: 767px) {
